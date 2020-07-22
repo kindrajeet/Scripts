@@ -7,11 +7,11 @@ Pre-requisities for getting this script executed:
 Install YQ (yaml query tool) on Linux systems- Ideally Personal workstation - only once
 
 ```
-snap install yq
-once on customer system, get the output of "kubectl get bd -n openebs"
-clone this repository on local system (ideally your workstation where "yq" is installed)
-Modify the "bd" file to match the contents of output achieved from "kubectl get bd -n openebs"
-./main.sh
+$ snap install yq
+$ once on customer system, get the output of "kubectl get bd -n openebs"
+$ clone this repository on local system (ideally your workstation where "yq" is installed)
+$ Modify the "bd" file to match the contents of output achieved from "kubectl get bd -n openebs"
+$ ./main.sh
 Recheck the storage.yaml if the entries have been modified
 ```
 

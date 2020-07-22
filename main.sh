@@ -1,4 +1,5 @@
 #!/bin/bash
+
 var1=$(cat bd |awk {'print $1'} |sed -n '2p')
 var2=$(cat bd |awk {'print $1'} |sed -n '3p')
 var3=$(cat bd |awk {'print $1'} |sed -n '4p')

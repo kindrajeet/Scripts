@@ -20,4 +20,3 @@ Key Points: (Since in alpha phase)
 count for the number of block devices present
 make similar entries in "main.sh" for each variable in each section to match the count of block devices
 
-To Do: (to check if yaml needs to be modified for additional entries depending on node counts & if it works and avoids sparsh files)

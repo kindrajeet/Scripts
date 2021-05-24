@@ -20,17 +20,7 @@ yq w -i storage.yaml "spec.pools[1].dataRaidGroups[0].blockDevices[0].blockDevic
 yq w -i storage.yaml "spec.pools[2].dataRaidGroups[0].blockDevices[0].blockDeviceName" "$var3"
 yq w -i storage.yaml "spec.pools[3].dataRaidGroups[0].blockDevices[0].blockDeviceName" "$var4"
 
-#####Added at 15:35 PM########################################
-Hello Cherrypick1
 
-##############################################################
-
-#####Added at 16:04 PM########################################
-Hello Cherrypick2
-##############################################################
-
-#####Added at 16:06 PM########################################
-Hello Cherrypick3
-##############################################################
 
 testing cherrypick
+

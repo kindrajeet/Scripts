@@ -19,3 +19,6 @@ yq w -i storage.yaml "spec.pools[0].dataRaidGroups[0].blockDevices[0].blockDevic
 yq w -i storage.yaml "spec.pools[1].dataRaidGroups[0].blockDevices[0].blockDeviceName" "$var2"
 yq w -i storage.yaml "spec.pools[2].dataRaidGroups[0].blockDevices[0].blockDeviceName" "$var3"
 yq w -i storage.yaml "spec.pools[3].dataRaidGroups[0].blockDevices[0].blockDeviceName" "$var4"
+
+
+testing again
